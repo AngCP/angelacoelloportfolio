@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.download_button {
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFE9D9;
+    display: flex;
+    justify-content: center;
+}
+
+.download_button:hover {
+    background-color: #e7e7e7;
+}
+
+.download_button:active {
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 480px) { /* Mobile devices. */
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) { /* iPads, Tablets. */
+
+}
+
+@media screen and (min-width: 769px) { /* Small screens, laptops. */
+
+}
+
+@media screen and (min-width: 1200px) { /* Desktops, large screens. */
+
+}
