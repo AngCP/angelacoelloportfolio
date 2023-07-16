@@ -106,6 +106,17 @@
     background-color: #ffffff;
 }
 
+#certificate_picture {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+#name_and_certificate{
+    display: flex;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 480px) { /* Mobile devices. */
 
     .back_button {
@@ -130,6 +141,11 @@
     .social_network_button {
         font-size: 15px;
     }
+
+    #name_and_certificate{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 768px) { /* iPads, Tablets. */
@@ -142,12 +158,20 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    #name_and_certificate{
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 769px) { /* Small screens, laptops. */
-
+    #name_and_certificate{
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 1200px) { /* Desktops, large screens. */
-
+    #name_and_certificate{
+        padding: 10px;
+    }
 }
